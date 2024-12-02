@@ -101,7 +101,7 @@ jobs:
         WHOAMI: nantayo
         SW_FLOWOFFLOAD: 0
         SFE_FLOW: 0
-        ENABLE_WIFI_K510: 1
+        ENABLE_WIFI_K510: 0
 
     - name: Upload firmware to release
       uses: softprops/action-gh-release@master
